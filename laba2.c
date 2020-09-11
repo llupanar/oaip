@@ -19,5 +19,6 @@ int main() {
 	}
 	
 	printf("%.2f", (float)s / k);
+	return 0;
 	
 }
