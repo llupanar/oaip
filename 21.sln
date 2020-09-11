@@ -2,7 +2,6 @@
 
 int main() {
 
-	float r;
 	int f = 0, s = 0, k = 0;
 	char mas[] = { " hello world " };
 
@@ -18,7 +17,6 @@ int main() {
 			f = 0;
 		}
 	}
-	r = (float)s / k;
-	printf("%.2f", r);
+	printf("%.2f", (float)s / k);
 }
 
