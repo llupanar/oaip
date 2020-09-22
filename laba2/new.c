@@ -1,7 +1,6 @@
 // Даны действительные числа a, b, c. 
 //Удвоить числа, если a >=b>=c и заменить их абсолютными значениями, если это не так.
 #include <stdio.h>
-#include <iostream> // для scanf_s
 #include <windows.h> //для команды system
 int main (){
 	float a, b, c; 
