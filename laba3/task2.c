@@ -3,7 +3,7 @@
 int main() {
 
 	int  k, kk, kol=0, sum=0, n, a, i, r;
-	setlocale(LC_ALL, "Russian");
+	setlocale(LC_ALL, "Russian"); //русификация
 	printf(" введите n\n");
 	scanf_s("%d", &n);
 	for (r=0; n<=0; r++ ){ // число должно быть натуральным (n>0)
