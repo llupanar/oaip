@@ -22,5 +22,5 @@ int main() {
 		}
           
 	}
-	printf("kol %d\nsum %d", kol, sum);
+	printf("количество %d\nсумма %d", kol, sum);
 }
