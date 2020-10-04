@@ -10,7 +10,7 @@ int main() {
 	int a[SIZE], b[SIZE];
 	int i, j, k = 0, f, sum=0;
 	setlocale(LC_ALL, "Russian"); //русификация
-
+                                             //ввод элементов
 	for (i = 0; i < SIZE; i++) {
 		printf("введите элемент массива а\n");
 		scanf_s("%d", &a[i]);
